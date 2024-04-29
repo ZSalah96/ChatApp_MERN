@@ -33,7 +33,7 @@ export default function SearchInput() {
                 <input
                     type='text'
                     placeholder='Search…'
-                    className='input input-bordered rounded-full laptop:w-64 laptop:h-10 tablet:w-44 tablet:h-8 mobile:w-36 mobile:h-8'
+                    className='input input-bordered rounded-full laptop:w-64 laptop:h-10 tablet:w-44 tablet:h-8 mobile:w-36 mobile:h-8 bg-white'
                     style={{ color: 'black'}} // Set inline style for text color
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}

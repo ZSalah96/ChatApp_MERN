@@ -18,7 +18,7 @@ export default function MessageInput() {
       <div className='w-full relative'>
         <input
           type='text'
-          className='border text-sm rounded-lg block w-full p-2.5 bg border-gray-600 text-black'
+          className='border text-sm rounded-lg block w-full p-2.5 bg-white border-gray-600 text-black'
           placeholder='Send a message'
           value={message} // Add value prop to bind input field to message state
           onChange={(e) => setMessage(e.target.value)} // Add onChange event to update message state
